@@ -9,4 +9,31 @@ Lets get started !!!
   2) Hooks allows function components to have access to state and other React features.
   3) Hooks allows you to reuse stateful logic without changing your component hierarchy.
 
+what is JSX in React ?
+ 1) JSX stands for JavaScript XML.
 
+Can we write a React code without JSX ?
+ Yes.. we can write a React code without JSX by using React.creteElements;
+    example :
+
+    import React from 'react';
+
+    const Hello = () => {
+        return React.createElement('div', {id:'hello' name='Tushar', 'Hello Tushar' })
+    }
+
+What is props in react? 
+  1) props in react knowns as properties.
+  2) React Props are immutable thats means we can not change props in react.
+  3) we can pass react props as a children.
+      example :
+
+    <Test name="Tushar" education="MCA"> <Button>Click</Button> </Test>
+
+    we can access child attribute by using {props.children}
+
+What is state in react?
+  1) State is built in React hook which is use to change something on UI.
+  2) we can change state in components.
+  3) State is muttable we can easily modify state.
+  
