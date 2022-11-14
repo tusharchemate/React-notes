@@ -1,0 +1,12 @@
+Lets get started !!!
+ 
+ what is react?
+  1) React is efficient and flexible JS library for building user interfaces.
+  1) React is a javascript library which is used make a rich GUI.
+
+ what are hooks ?
+  1) Hooks are a new addition in React 16.8
+  2) Hooks allows function components to have access to state and other React features.
+  3) Hooks allows you to reuse stateful logic without changing your component hierarchy.
+
+
